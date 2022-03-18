@@ -23,3 +23,38 @@ Also in the future I want to learn PWA technology and write web applications in 
 - Git
 - VSCode
 - Adobe Photoshop, Figma
+
+## Code Example
+
+The task on parsing parameters of url request.
+
+```js
+const inData = "user.name.firstname=Bob&user.name.lastname=Smith&user.favoritecolor=Light%20Blue&experiments.theme=dark";
+
+function queryObjectify(str) {
+    let result = {}
+    
+    let params = inData.split('&')
+    params = params.map( param => param.split('=') )
+    params = params.map( param => {
+        param[0] = param[0].split('.')
+        param[1] = param[1].replace('%20', ' ')
+        return param
+    } )
+
+    for (param of params) {
+        let currentObject = result
+        param[0].forEach( item => { 
+            if (currentObject.hasOwnProperty(item)) {
+                currentObject = currentObject[item]
+            } else if (item === param[0][param[0].length-1]) {
+                currentObject[item] = param[1]
+            } else {
+                currentObject[item] = {}
+                currentObject = currentObject[item]
+            }
+        } )
+    }
+    return result
+}
+```
