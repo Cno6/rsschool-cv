@@ -73,3 +73,10 @@ No commercial experience.
 
 ![](Certificates/Greenatom.png)
 
+## Languages:
+
+**Russian** - Native.
+
+**English** - Upper Intermediate (B2).
+
+![](Certificates/EFSet.png)
