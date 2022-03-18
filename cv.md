@@ -58,3 +58,13 @@ function queryObjectify(str) {
     return result
 }
 ```
+
+## Experience
+
+No commercial experience.
+
+### Educational projects
+
+- [Burning Man Layout](https://github.com/Cno6/burningman-markup)
+- [Task Tracker Layout](https://github.com/Cno6/tasktracker-layout)
+- [IP Address Tracker](https://github.com/Cno6/ip-address-tracker)
