@@ -14,3 +14,12 @@ In my free time I read literature of different nature. I study blockchain techno
 
 Also in the future I want to learn PWA technology and write web applications in Electron framework to create my own comprehensive productivity application.
 
+## Skills
+
+- HTML5, CSS3
+- JavaScript (ECMAScript 6)
+- TypeScript
+- REST
+- Git
+- VSCode
+- Adobe Photoshop, Figma
