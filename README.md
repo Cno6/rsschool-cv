@@ -1,1 +1,1 @@
-# rsschool-cv
+https://cno6.github.io/rsschool-cv/
